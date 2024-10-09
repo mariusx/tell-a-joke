@@ -5,7 +5,7 @@ containers:
   jotd:
     image: .
     variables:
-      MESSAGE: Hello World: ${resources.jotd-dns.host}!
+      MESSAGE: Hello Void!
 service:
   ports:
     www:
